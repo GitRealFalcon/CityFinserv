@@ -22,7 +22,7 @@ export function ClientAbout() {
           </h1>
           <div className="bg-gradient-to-r from-amber-500 to-amber-300 h-1 w-1/3 mx-auto mb-6 rounded-full" />
           <p className="text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            I'm a certified financial advisor dedicated to helping people like you navigate the world of money — smarter. Whether you’re getting started or growing wealth, I provide clear, personalized advice to help you thrive financially.
+            I'm a certified financial advisor dedicated to helping people like you navigate the world of money — smarter. Whether you&apos;re getting started or growing wealth, I provide clear, personalized advice to help you thrive financially.
           </p>
         </motion.div>
 

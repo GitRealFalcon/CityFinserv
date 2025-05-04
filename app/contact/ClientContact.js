@@ -58,7 +58,7 @@ export default function ClientContact() {
         >
           <h1 className="text-4xl font-bold text-amber-400 mb-4">Contact Us</h1>
           <p className="text-lg text-slate-300">
-            We'd love to hear from you. Let's get in touch!
+            We&apos;d love to hear from you. Let&apos;s get in touch!
           </p>
         </motion.div>
 
