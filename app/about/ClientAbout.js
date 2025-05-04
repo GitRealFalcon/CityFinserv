@@ -22,7 +22,7 @@ export function ClientAbout() {
           </h1>
           <div className="bg-gradient-to-r from-amber-500 to-amber-300 h-1 w-1/3 mx-auto mb-6 rounded-full" />
           <p className="text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            I'm a certified financial advisor dedicated to helping people like you navigate the world of money — smarter. Whether you&apos;re getting started or growing wealth, I provide clear, personalized advice to help you thrive financially.
+            I&apos;m a certified financial advisor dedicated to helping people like you navigate the world of money — smarter. Whether you&apos;re getting started or growing wealth, I provide clear, personalized advice to help you thrive financially.
           </p>
         </motion.div>
 
@@ -112,9 +112,9 @@ export function ClientAbout() {
           className="text-center"
         >
           <div className="bg-gradient-to-r from-amber-600 to-amber-400 p-8 rounded-2xl shadow-lg text-slate-900">
-            <h3 className="text-2xl font-bold mb-4">Let’s Build Your Financial Future</h3>
+            <h3 className="text-2xl font-bold mb-4">Let&apos;s Build Your Financial Future</h3>
             <p className="mb-6 text-slate-800 max-w-xl mx-auto">
-              Ready to take the next step in your financial journey? Book a consultation today and let’s create a plan that works for you.
+              Ready to take the next step in your financial journey? Book a consultation today and let&apos;s create a plan that works for you.
             </p>
             <Link href="/contact">
               <motion.div
