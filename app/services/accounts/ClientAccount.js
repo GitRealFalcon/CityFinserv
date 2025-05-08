@@ -16,66 +16,108 @@ import {
 } from 'react-icons/fa';
 
 export default function ClientAccount() {
-  const [activeTab, setActiveTab] = useState('regular');
+  const [activeTab, setActiveTab] = useState('saving');
 
   const savingsProducts = {
-    regular: [
+    saving: [
       {
         id: 1,
-        title: 'Basic Savings',
-        interest: '3.5%',
-        minBalance: '₹5,000',
+        title: 'Kotak 811',
+        interest: '7%',
+        minBalance: 'Zero Balance',
+        link:"http://sales.gromo.in/kt/-E5X2De5WC",
         features: [
-          'Zero balance account opening',
-          'Free digital banking',
-          'ATM/debit card',
-          'Monthly interest credits'
+          'Earn up to 7% interest per annum',
+          ' Free Virtual Debit Card loaded with offers',
+          'Get up to ₹6000 cashback on debit card spends',
+          'No monthly balance maintenance required'
         ],
-        image: '/basic-savings.jpg'
+        image: '/kotak_account.jpg'
       },
       {
         id: 2,
-        title: 'Premium Savings',
-        interest: '4.25%',
-        minBalance: '₹25,000',
+        title: 'IndusInd Bank',
+        interest: '7%',
+        minBalance: 'Zero Balance',
+        link:"http://sales.gromo.in/da/-E5X2De5WC",
         features: [
-          'Higher interest rates',
-          'Free cheque book',
-          'Priority customer service',
-          'Personal financial advisor'
+          '5% cashback* on fuel, entertainment, dining and OTT spends with your Delights debit card',
+          '5% cashback on Amazon* with your IndusInd Bank debit card',
+          'Open account with an Initial funding of ₹500 only',
+          '20% off on Swiggy & 10% off on Bigbasket with your Delights debit card'
         ],
-        image: '/premium-savings.jpg'
-      }
-    ],
-    salary: [
+        image: '/indusind_account.jpg'
+      },
       {
         id: 3,
-        title: 'Salary Account',
-        interest: '4.0%',
+        title: 'Airtel Payments Bank',
+        interest: '7%',
         minBalance: 'Zero Balance',
+        link:"http://sales.gromo.in/zd/-E5X2De5WC",
         features: [
-          'Instant account activation',
-          'Salary credit benefits',
-          'Free unlimited transactions',
-          'Special loan offers'
+          'Cashless payments',
+          'Earn 7%* interest on savings',
+          ' 24X7 payment service',
+          ' Unlock ₹15,000+ discounts on 70+ brands with a Debit Card. ',
         ],
-        image: '/salary-account.jpg'
-      }
-    ],
-    senior: [
+        image: '/airtel_account.jpg'
+      },
       {
         id: 4,
-        title: 'Senior Citizens',
-        interest: '5.5%',
-        minBalance: '₹10,000',
+        title: 'IndusInd INDI',
+        interest: 'Up To 7%',
+        minBalance: 'Zero Balance',
+        link:"http://sales.gromo.in/zv/-E5X2De5WC",
         features: [
-          'Higher interest rates',
-          'Quarterly interest payout',
-          'Free demand drafts',
-          'Special tax benefits'
+          ' Interest rate of up to 7% p.a.',
+          'Lifetime Zero-balance savings account',
+          '3% rewards for Fuel spend',
+          '1+1 Bookmyshow tickets with VISA Signature debit card.',
         ],
-        image: '/senior-savings.jpg'
-      }
+        image: '/indi_account.jpg'
+      },
+      {
+        id: 5,
+        title: 'AXIS Digital',
+        interest: '7%',
+        minBalance: '10k',
+        link:"http://sales.gromo.in/ax/-E5X2De5WC",
+        features: [
+          '  10% cashback on Flipkart, Amazon & 20% cashback on Zomato and Tata 1 mg',
+          ' No need to visit the Branch - Customer can avail 250+ online services',
+          'Instant Virtual Debit card with 1% cashback on online spends',
+          ' Get accidental insurance cover of up to ₹1 crore',
+        ],
+        image: '/axisdigital_account.jpg'
+      },
+      {
+        id: 6,
+        title: 'Jupiter',
+        interest: 'Up To 7%',
+        minBalance: 'Zero Balance',
+        link:"http://sales.gromo.in/ju/-E5X2De5WC",
+        features: [
+          '1% Rewards on UPI & Debit Card Transactions',
+          'Check all bank Balances in one place',
+          'Get real-time spend breakdowns with Insights',
+        ],
+        image: '/jupiter_account.jpg'
+      },
+      
+    ],
+    current: [
+      {
+        id: 1,
+        title: 'Tide',
+        minBalance: 'Zero Balance',
+        link:"http://sales.gromo.in/tr/-E5X2De5WC",
+        features: [
+          'Add Funds using Credit Card T&C Applied',
+          ' Buy 1 Get 1 Free Movie Ticket on Book My Show',
+          'Get ₹25 in wallet after account opened successfully',
+        ],
+        image: '/tide_account.jpg'
+      },
     ]
   };
 
@@ -101,21 +143,20 @@ export default function ClientAccount() {
         <div className="flex overflow-x-auto pb-2 scrollbar-hide">
           <div className="flex space-x-2">
             {[
-              { id: 'regular', label: 'Regular Savings' },
-              { id: 'salary', label: 'Salary Accounts' },
-              { id: 'senior', label: 'Senior Citizens' }
+              { id: 'saving', label: 'Savings  Accounts' },
+              { id: 'current', label: 'Current Accounts' }
             ].map((tab) => (
-              <button
+              <div
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`px-6 py-3 rounded-lg font-medium whitespace-nowrap transition-colors ${
+                className={`px-2 py-2  sm:px-6 sm:py-3 rounded-lg font-medium whitespace-nowrap transition-colors ${
                   activeTab === tab.id
                     ? 'bg-amber-600 text-slate-900'
                     : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                 }`}
               >
                 {tab.label}
-              </button>
+              </div>
             ))}
           </div>
         </div>
@@ -149,7 +190,7 @@ export default function ClientAccount() {
                 </div>
                 <div className="p-6">
                   <div className="flex items-center mb-4">
-                    <FaPiggyBank className="text-amber-500 text-3xl mr-3" />
+                    {/* <FaPiggyBank className="text-amber-500 text-3xl mr-3" /> */}
                     <h2 className="text-2xl font-bold text-amber-400">{account.title}</h2>
                   </div>
                   <div className="mb-4">
@@ -166,7 +207,7 @@ export default function ClientAccount() {
                       </li>
                     ))}
                   </ul>
-                  <Link href={`/open-account?type=${account.id}`}>
+                  <a href={account.link}>
                     <motion.button
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
@@ -174,7 +215,7 @@ export default function ClientAccount() {
                     >
                       Open Account
                     </motion.button>
-                  </Link>
+                  </a>
                 </div>
               </motion.div>
             ))}
@@ -310,14 +351,14 @@ export default function ClientAccount() {
           <p className="text-slate-800 mb-8 max-w-2xl mx-auto">
             Open your savings account in just 5 minutes with minimal documentation
           </p>
-          <Link href="/open-account">
-            <motion.button
+          <Link href="/contact">
+            <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-slate-900 hover:bg-slate-800 text-amber-400 font-bold py-3 px-8 rounded-lg transition-colors"
+              className="bg-slate-900 text-amber-400 px-8 w-fit mx-auto font-bold py-3 rounded-lg hover:bg-slate-800 transition-colors"
             >
-              Open Account Now
-            </motion.button>
+              Get More Info
+            </motion.div>
           </Link>
         </div>
       </section>

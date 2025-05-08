@@ -1,8 +1,8 @@
 import React from 'react'
-import ClientCertficate from './ClientCertificat'
+import ClientCertficate from './ClientOffers'
 
 export const metadata = {
-  title: 'Certificate | Your Financial Guide',
+  title: 'Offers',
   description: 'Certified financial advisor offering tailored financial services like credit help, loans, insurance, and more.',
 };
 

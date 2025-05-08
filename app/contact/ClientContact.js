@@ -17,6 +17,7 @@ export default function ClientContact() {
     email: '',
     subject: '',
     message: '',
+    phone:'',
   });
 
   const [showSuccess, setShowSuccess] = useState(false);
@@ -33,7 +34,8 @@ export default function ClientContact() {
         email: formData.email,
         name: formData.name,
         subject: formData.subject,
-        message: formData.message
+        message: formData.message,
+        phone:formData.phone
 
       })
     })
@@ -44,7 +46,7 @@ export default function ClientContact() {
     console.log(formData);
     setShowSuccess(true);
     setTimeout(() => setShowSuccess(false), 3000);
-    setFormData({ name: '', email: '', subject: '', message: '' });
+    setFormData({ name: '', email: '', subject: '', message: '',phone:'' });
   };
 
   return (
@@ -129,6 +131,20 @@ export default function ClientContact() {
                   required
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                  className="mt-1 block w-full rounded-md bg-slate-900 p-4 text-slate-100 border border-slate-600 focus:border-amber-500 focus:ring-amber-500"
+                />
+              </div>
+              <div>
+                <label htmlFor="phone" className="block text-sm font-medium text-amber-400">
+                  Mobile No
+                </label>
+                <input
+                  type="text"
+                  id="phone"
+                  name='phone'
+                  required
+                  value={formData.phone}
+                  onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                   className="mt-1 block w-full rounded-md bg-slate-900 p-4 text-slate-100 border border-slate-600 focus:border-amber-500 focus:ring-amber-500"
                 />
               </div>

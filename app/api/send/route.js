@@ -12,7 +12,7 @@ export async function POST(request) {
             from: 'onboarding@resend.dev',
             to: ['monaeem8@gmail.com'],
             subject: clientData.subject,
-            react: EmailTemplate({ firstName: clientData.name, message: clientData.message, email: clientData.email }),
+            react: EmailTemplate({ firstName: clientData.name.toUpperCase(), message: clientData.message, email: clientData.email, phone:clientData.phone }),
         });
 
         if (error) {

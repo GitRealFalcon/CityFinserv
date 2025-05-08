@@ -1,13 +1,16 @@
 import * as React from 'react';
-import { Html, Head, Body, Text } from '@react-email/components';
+import { Html, Head, Body, Text} from '@react-email/components';
 
-export const EmailTemplate = ({ firstName,message,email }) => (
+export const EmailTemplate = ({ firstName, message, email,phone }) => (
   <Html>
     <Head />
     <Body>
-      <Text>Client {firstName}!</Text>
-      <Text>Client Email {email}!</Text>
+      <Text>From: {firstName}!</Text>
+      <Text>Email: {email}</Text>
+      <Text>Phone No: {phone}</Text>
       <Text>{message}</Text>
+
+    
 
     </Body>
   </Html>

@@ -16,15 +16,16 @@
     font-family: "Poppins", serif;
     font-weight: 500;
     font-style: normal;
+    
 
 }
 
 .portfolio_container {
     /* position: relative; */
     /* display: flex; */
-    /* min-height: 100vh; */
+    /* min-height: 100%; */
     width: 100%;
-    
+    background-color: var(--primary-dark);
 }
 
 .nav_list {
@@ -41,6 +42,7 @@
 .nav_list li {
     list-style: none;
     font-weight: bold;
+    
 }
 
 .nav_list a {
@@ -48,8 +50,12 @@
     font-size: 1rem;
     /* color: #cbd5e1; */
     color: var(--accent-amber);
-    position: relative;
-    
+    position: relative; 
+}
+
+.nav_list select{
+    color: var(--accent-amber);
+    font-weight: bold;
 }
 
 .nav_list p{
@@ -58,7 +64,7 @@
 
 .hero_container {
     display: flex;
-    background-color: var(--primary-dark);
+  
     width: 100%;
     min-height: 100vh;
 }
@@ -79,7 +85,7 @@
     /* border: 1px solid black; */
     padding-left: 3rem;
     gap: 4rem;
-   
+   margin-top: 3rem;
 
 }
 

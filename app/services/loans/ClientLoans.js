@@ -81,60 +81,194 @@ const ClientLoans = () => {
     personal: [
       {
         id: 1,
-        title: 'Basic Savings',
-        interest: '3.5%',
+        title: 'HDFC Bank',
+        link:"http://loan.gromo.in/hl/-E5X2De5WC",
        
         features: [
-          'Zero balance account opening',
-          'Free digital banking',
-          'ATM/debit card',
-          'Monthly interest credits'
+          'Will not impact your current Credit Card Limit',
+          'Instant Loan Approval',
+          'Can be availed multiple times',
+          'Flexibility in Repayments',
+          'Minimal Documentation'
         ],
-        image: '/basic-savings.jpg'
+        image: '/hdfc_Loan.jpg'
       },
       {
         id: 2,
-        title: 'Premium Savings',
-        interest: '4.25%',
-        
+        title: 'Indusind Bank',
+        link:"http://loan.gromo.in/ip/-E5X2De5WC",
         features: [
-          'Higher interest rates',
-          'Free cheque book',
-          'Priority customer service',
-          'Personal financial advisor'
+          'Flexible loan amount - from ₹30,000 to ₹5 lakhs',
+          'Fully digital and paperless journey',
+          ' Interest Rates range from 10.49% to 29.50% p.a',
+          'Super fast loan disbursal & speedy approval process.'
         ],
-        image: '/premium-savings.jpg'
-      }
+        image: '/indusind_loan.jpg'
+      },
+      {
+        id: 3,
+        title: 'ABHI Loan',
+        link:"http://sales.gromo.in/m/-E5X2De5WC",
+        features: [
+          ' Low Rate of Interest - from 8% p.a.',
+          'Loan from ₹15,000 (up to 60% of Mutual Fund value)',
+          ' No income or Cibil requirements',
+          ' Quick & digital journey with instant disbursal ',
+          'ZERO prepayment or foreclosure charges'
+
+        ],
+        image: '/abhi_loan.jpg'
+      },
+      {
+        id: 4,
+        title: 'IDFC FIRST Bank',
+        link:"http://loan.gromo.in/lo/-E5X2De5WC",
+        features: [
+          ' Approved Loan Offer upto ₹10 Lakhs',
+          'Withdraw funds with flexible EMI dates',
+          ' Repay anytime with ZERO foreclosure charges',
+          ' ROI Starting from 9.99%',
+          ' Flexible Tenure: 9 - 60 Months'
+        ],
+        image: '/idfc_loan.jpg'
+      },
+      {
+        id: 5,
+        title: 'Indusind Bank',
+        link:"http://loan.gromo.in/ip/-E5X2De5WC",
+        features: [
+          'Flexible loan amount - from ₹30,000 to ₹5 lakhs',
+          'Fully digital and paperless journey',
+          ' Interest Rates range from 10.49% to 29.50% p.a',
+          'Super fast loan disbursal & speedy approval process.'
+        ],
+        image: '/indusind_loan.jpg'
+      },
+      {
+        id: 6,
+        title: 'InCred Finance',
+        link:"http://loan.gromo.in/in/-E5X2De5WC",
+        features: [
+          ' Flexible repayment tenure of up to 60 months',
+          ' Loan amount ranging from ₹50,000 to ₹10 Lakhs',
+          ' Interest rate starting from 1.33% p.m',
+          '3 months of Bank statement are required'
+        ],
+        image: '/incred_loan.jpg'
+      },
+      {
+        id: 7,
+        title: 'Aditya Birla Finance',
+        link:"http://loan.gromo.in/zc/-E5X2De5WC",
+        features: [
+          ' Get higher limit by uploading Bank Statement',
+          ' Instant Disbursement',
+          ' Digital Approval Process with VKYC',
+          'Collateral free loan'
+        ],
+        image: '/aditya_loan.jpg'
+      },
+      {
+        id: 8,
+        title: 'UNITY Small Finance Bank',
+        link:"http://loan.gromo.in/ut/-E5X2De5WC",
+        features: [
+          ' No Paperwork',
+          ' No Bank Visit Requiredt',
+          'No Collateral Required',
+          ' Get personal loan of upto ₹5 Lakh '
+        ],
+        image: '/unity_loan.jpg'
+      },
+      {
+        id: 9,
+        title: 'Prefr',
+        link:"http://loan.gromo.in/pf/-E5X2De5WC",
+        features: [
+          ' Zero Paperwork',
+          ' Available for both salaried and self employed',
+          ' Instant Loan Approval',
+          'Same Day Disbursal'
+        ],
+        image: '/prefr_loan.jpg'
+      },
+      {
+        id: 10,
+        title: 'KreditBee',
+        link:"http://loan.gromo.in/kb/-E5X2De5WC",
+        features: [
+          ' Loans ranging from ₹1,000 to ₹5 Lakhs',
+          ' Easy application process',
+          ' Digital processing and 10-minute loan disbursal.',
+          'Interest rate from 1.02% - 2.49% p.m'
+        ],
+        image: '/kreditbee_loan.jpg'
+      },
+      {
+        id: 11,
+        title: 'Fi',
+        link:"http://loan.gromo.in/ml/-E5X2De5WC",
+        features: [
+          '  Interest rates: Starting 0.8% per month',
+          'Flexible loans: ₹25,000 to ₹5,00,000',
+          ' Zero pre-closure fees (for Liquiloans)',
+          ' Approval: 100% digital & paperless'
+        ],
+        image: '/fi_loan.jpg'
+      },
     ],
     home: [
       {
-        id: 3,
-        title: 'Salary Account',
-        interest: '4.0%',
-        minBalance: 'Zero Balance',
+        id: 1,
+        title: '.BASIC',
+        link:"http://loan.gromo.in/bx/-E5X2De5WC",
         features: [
-          'Instant account activation',
-          'Salary credit benefits',
-          'Free unlimited transactions',
-          'Special loan offers'
+          'Choose loan offers from 90+ financiers',
+          'Paperless application ',
+          'Digital loan sanctions',
+          'Step by step tracking'
         ],
-        image: '/salary-account.jpg'
-      }
+        image: '/basic_home.jpg'
+      },
     ],
     credit: [
       {
-        id: 4,
-        title: 'Senior Citizens',
-        interest: '5.5%',
-        minBalance: '₹10,000',
+        id: 1,
+        title: 'HDFC Bank',
+        link:"http://loan.gromo.in/he/-E5X2De5WC",
         features: [
-          'Higher interest rates',
-          'Quarterly interest payout',
-          'Free demand drafts',
-          'Special tax benefits'
+          'Instant Loan Approval',
+          'Can be availed multiple times',
+          'Flexibility in Repayments',
+          'Minimal Documentation'
         ],
-        image: '/senior-savings.jpg'
-      }
+        image: '/hdfc_loan.jpg'
+      },
+      {
+        id: 2,
+        title: 'Bajaj Finserv',
+        link:"http://loan.gromo.in/bf/-E5X2De5WC",
+        features: [
+          'Use on 1M+ Products across 2,300+ Cities',
+          '100% Digital with 30 Second Approval',
+          ' Credit up to ₹3 Lacs Available',
+          
+        ],
+        image: '/bajaj_creditline.jpg'
+      },
+      {
+        id: 3,
+        title: 'Fatak PAY',
+        link:"http://loan.gromo.in/fz/-E5X2De5WC",
+        features: [
+          'Get Loan of ₹20000 in 5 Mins',
+          'No Document required',
+          ' Flat fee of ₹500 per Disbursal',
+          'Interest free Loan',
+          
+        ],
+        image: '/fatak_creditline.jpg'
+      },
     ]
   };
 
@@ -168,23 +302,23 @@ const ClientLoans = () => {
        {/* Loans Type Tabs */}
        <section className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="flex overflow-x-auto pb-2 scrollbar-hide">
-          <div className="flex space-x-2">
+          <div className="flex gap-2 flex-wrap">
             {[
               { id: 'personal', label: 'Personal Loans' },
               { id: 'home', label: 'Home Loans' },
               { id: 'credit', label: 'Credit Lines' }
             ].map((tab) => (
-              <button
+              <div
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`px-6 py-3 rounded-lg font-medium whitespace-nowrap transition-colors ${
+                className={`px-1 py-2  sm:px-6 sm:py-3 rounded-lg font-medium whitespace-nowrap transition-colors ${
                   activeTab === tab.id
                     ? tab.className = 'bg-amber-600 text-slate-900'
                     : tab.className = 'bg-slate-800 text-slate-300 hover:bg-slate-700'
                 }`}
               >
                 {tab.label}
-              </button>
+              </div>
             ))}
           </div>
         </div>
@@ -212,13 +346,13 @@ const ClientLoans = () => {
                          sizes="(max-width: 768px) 100vw, 33vw"
                        />
                        <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent" />
-                       <div className="absolute top-4 right-4 bg-amber-500 text-slate-900 px-3 py-1 rounded-full text-sm font-bold">
+                       {/* <div className="absolute top-4 right-4 bg-amber-500 text-slate-900 px-3 py-1 rounded-full text-sm font-bold">
                          {loan.interest} Interest
-                       </div>
+                       </div> */}
                      </div>
                      <div className="p-6">
                        <div className="flex items-center mb-4">
-                         <FaPiggyBank className="text-amber-500 text-3xl mr-3" />
+                         {/* <FaPiggyBank className="text-amber-500 text-3xl mr-3" /> */}
                          <h2 className="text-2xl font-bold text-amber-400">{loan.title}</h2>
                        </div>
                       
@@ -232,15 +366,15 @@ const ClientLoans = () => {
                            </li>
                          ))}
                        </ul>
-                       <Link href={`/open-account?type=${loan.id}`}>
+                       <a href={loan.link} target='_blank'>
                          <motion.button
                            whileHover={{ scale: 1.05 }}
                            whileTap={{ scale: 0.95 }}
                            className="w-full bg-amber-600 hover:bg-amber-700 text-slate-900 font-bold py-3 px-4 rounded-lg transition-colors"
                          >
-                           Open Account
+                           Apply Now
                          </motion.button>
-                       </Link>
+                       </a>
                      </div>
                    </motion.div>
                  ))}
@@ -378,17 +512,7 @@ const ClientLoans = () => {
                     </div>
                   </div>
                   
-                  <div className="mt-8">
-                    <Link href="/apply-loan">
-                      <motion.button
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="w-full bg-amber-600 hover:bg-amber-700 text-slate-900 font-bold py-3 px-4 rounded-lg transition-colors flex items-center justify-center"
-                      >
-                        <FaRupeeSign className="mr-2" /> Apply Now
-                      </motion.button>
-                    </Link>
-                  </div>
+                  
                 </div>
               </div>
             </div>
