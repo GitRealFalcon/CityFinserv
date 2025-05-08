@@ -91,7 +91,7 @@ const ClientLoans = () => {
           'Flexibility in Repayments',
           'Minimal Documentation'
         ],
-        image: '/hdfc_Loan.jpg'
+        image: '/hdfc_loan.jpg'
       },
       {
         id: 2,
