@@ -1,16 +1,16 @@
-# Project Name
-- ## City Finserv
+## Project Name
+- City Finserv
 
-# Purpose
-- ## Financial Advisor
-- ## Civil Score
-- ## Apply Loan
-- ## Insurance
-- ## Challan info and Pay
+## Purpose
+- Financial Advisor
+- Civil Score
+- Apply Loan
+- Insurance
+- Challan info and Pay
 
-# Tech
-- ## HTML
-- ## CSS
-- ## Java Script
+## Tech
+- HTML
+- CSS
+- Java Script
 
 [Test Link](https://cityfinserv.vercel.app/)
